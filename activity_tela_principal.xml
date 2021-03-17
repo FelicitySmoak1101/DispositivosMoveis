@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7B0012"
+    tools:context=".TelaPrincipal">
+
+    <Button
+        android:id="@+id/btnSplash"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:text="Voltar splash"
+        android:textColor="#7B0012"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="10dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:text="Voltar login"
+        android:textColor="#7B0012"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="10dp"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:text="Bem-vindo(a), "
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="39dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
